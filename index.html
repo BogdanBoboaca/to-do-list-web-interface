@@ -8,6 +8,7 @@
 <h1>To Do List</h1>
 
 <link type="text/css" rel="stylesheet" href="css/style.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 <div id="add-task">
     <h3>Add tasks</h3>
@@ -38,25 +39,26 @@
             <td>Learn HTML</td>
             <td>10.02.2020</td>
             <td><input type="checkbox" data-id=1 class="mark-done"/></td>
-            <td><a href="#" data-id=1 class="delete-task">X</a></td>
+            <td><a href="#" data-id=1 class="delete-task"><i class="fas fa-trash-alt"></i></a></td>
         </tr>
 <!--Comment-->
         <tr>
             <td>Learn JavaScript</td>
             <td>12.02.2020</td>
             <td><input type="checkbox" data-id=1 class="mark-done"/></td>
-            <td><a href="#" data-id=1 class="delete-task">X</a></td>
+            <td><a href="#" data-id=1 class="delete-task"><i class="fas fa-trash-alt"></i></a></td>
         </tr>
 
         <tr>
             <td>Learn CSS</td>
             <td>13.02.2020</td>
             <td><input type="checkbox" data-id=1 class="mark-done"/></td>
-            <td><a href="#" data-id=1 class="delete-task">X</a></td>
+            <td><a href="#" data-id=1 class="delete-task"><i class="fas fa-trash-alt"></i></a></td>
         </tr>
         </tbody>
     </table>
 </div>
-
+<script src="js/lib/jquery-3.4.1.js"></script>
+<script src="js/tasks.js"></script>
 </body>
 </html>
